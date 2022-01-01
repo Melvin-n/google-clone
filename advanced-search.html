@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel='stylesheet' href='advanced-search.css'>
+        <title>Advanced Search</title>
+    </head>
+    <body>
+        <nav id='navigation'>
+            <a href='homepage.html'>Home</a>
+        </nav>
+        <img id='google-logo-small' src='google-logo.png' alt='google-logo'>
+        <h2 id='adv-header'>Advanced Search</h2>
+        <h3>Find pages with...</h3>
+        <form id='adv-search-form' action='https://google.com/search'>
+            <div class='input-label-div'>
+                <label class='adv-search-label' for='all-words'>All these words:</label>
+                <input id='all-words' class='adv-params' type='text' name='as_q'>
+            </div>
+            <div class='input-label-div'>
+                <label class='adv-search-label' for='exact-words'>This exact word or phrase:</label>
+                <input id='exact-words' class='adv-params' type='text' name='as_epq'>
+            </div>
+            <div class='input-label-div'>
+                <label class='adv-search-label' for='any-words'>Any of these words:</label>
+                <input id='any-words' class='adv-params' type='text' name='as_oq'>
+            </div>
+            <div class='input-label-div'>
+                <label class='adv-search-label' for='none-words'>None of these words:</label>
+                <input id='none-words' class='adv-params' type='text' name='as_eq'>
+            </div>
+            <input id='adv-search-btn' type='submit' value='Advanced Search'>
+
+        </form>
+    </body>
+</html>

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Search</title>
+
+        <link rel='stylesheet' href='index.css'>
+        <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css'>
+    </head>
+    <body>
+        <nav id='navigation'>
+            <a href='image-search.html'>Images</a>
+            <a href='advanced-search.html'>Advanced Search</a>
+        </nav>
+        <div id='page-center'>
+            <img id='google-logo' src='google-logo.png'  alt='google-logo'/>
+            <form action="https://google.com/search">
+                <div id='search-bar-container'>
+                    <i class="fas fa-search"></i>
+                    <input id='search-bar' type="text" name="q">
+                    <i class="fas fa-times fa-lg"></i>
+                    <p id='divider'>|</p>
+                    <i class="fas fa-microphone fa-lg"></i>
+
+                </div>
+                <div id='search-buttons'>
+                    <input type="submit" value="Google Search">
+                    <input type="submit" value="I'm Feeling Lucky">
+                </div>
+            </form>
+        </div>
+    </body>
+</html>
+
