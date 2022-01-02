@@ -11,12 +11,12 @@
     </head>
     <body>
         <nav id='navigation'>
-            <a href='image-search.html'>Images</a>
+            <a href='image-search.html'>Images</a></button>
             <a href='advanced-search.html'>Advanced Search</a>
         </nav>
         <div id='page-center'>
             <img id='google-logo' src='google-logo.png'  alt='google-logo'/>
-            <form action="https://google.com/search">
+            <form action="https://google.com/search" method='GET'>
                 <div id='search-bar-container'>
                     <i class="fas fa-search"></i>
                     <input id='search-bar' type="text" name="q">
@@ -26,8 +26,8 @@
 
                 </div>
                 <div id='search-buttons'>
-                    <input type="submit" value="Google Search">
-                    <input type="submit" value="I'm Feeling Lucky">
+                    <input type="submit" name='btnK' value="Google Search">
+                    <input type="submit" name='btnI' value="I'm Feeling Lucky">
                 </div>
             </form>
         </div>
